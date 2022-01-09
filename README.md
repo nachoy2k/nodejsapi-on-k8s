@@ -19,7 +19,7 @@ Helm helps you manage Kubernetes applications, Helm is a package manager for Kub
 for ex SSH:  
 <code>git clone git@github.com:nachoy2k/nodejsapi-on-k8s.git</code>  
 
-* Start Minikube  
+● Start Minikube  
 <code>minikube start</code>
 
 ● Navigate to the folder and run:
@@ -27,3 +27,6 @@ for ex SSH:
  <code>helm package plan-a</code>  
  <code>helm install plan-a 'path_to_your_packaged_file\plan-a-0.1.0.tgz'</code>  
  <code>kubectl port-forward service/nodejs-chart 3000:3000</code>  
+
+● To review the deployment open a browser on:   
+[localhost port 3000](http://localhost:3000/)
